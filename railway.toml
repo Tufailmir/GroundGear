@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+buildCommand = "cd groundgear-backend && ./mvnw clean package -DskipTests"
+
+[deploy]
+startCommand = "cd groundgear-backend && java -jar target/*.jar"
