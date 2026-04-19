@@ -1,0 +1,57 @@
+# ============ ENVIRONMENT FILES ============
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# ============ BUILD & DEPENDENCIES ============
+/target/
+/build/
+/.gradle/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# ============ LOGS ============
+logs/
+*.log
+*.log.*
+
+# ============ MAVEN ============
+.m2/
+dependency-reduced-pom.xml
+
+# ============ TEMPORARY FILES ============
+*.tmp
+*.temp
+*.cache
+
+# ============ SYSTEM FILES ============
+Thumbs.db
+.DS_Store
+
+# ============ SECURITY - NEVER COMMIT ============
+*secret*
+*password*
+*credentials*
+*key*
+!*example*
+!*template*
+
+# ============ TESTING ============
+coverage/
+.coverage
+.pytest_cache/
